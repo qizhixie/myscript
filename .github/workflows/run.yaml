@@ -2,7 +2,7 @@ name: data_run
 
 on:
   schedule:
-    - cron: '0 0 */6 ? * SUN,TUE-SAT'  
+    - cron: '0 0 */6 * * * '  
   workflow_dispatch:  
 
 jobs:
